@@ -1,0 +1,119 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.header {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.searchdatabox {
+  width: 500px;
+  height: 40px;
+  padding: 20px 10px;
+  font-size: 18px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 75%;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: left;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.th {
+  background-color: #808a9f;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid white;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.td {
+  background-color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+  text-align: center;
+}
+
+.yearLabel {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.selectyear {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.containersearhdatabox {
+  position: relative;
+}
+
+.searchicon {
+  position: absolute;
+  right: 3px;
+  top: 13%;
+  font-size: 30px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+}
+
+@media (prefers-reduced-motion) {
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  .searchdatabox {
+    width: 300px;
+    height: 40px;
+    padding: 10px 5px;
+    font-size: 14px;
+  }
+  .tablecontainer {
+    overflow-x: auto;
+  }
+  .table {
+    border-collapse: collapse;
+    width: 500px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: auto;
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+}
